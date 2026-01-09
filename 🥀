@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background: #020617;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    a {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #38bdf8;
+      font-size: 20px;
+      transition: 0.2s;
+    }
+    a:hover {
+      background: #334155;
+      transform: scale(1.05);
+    }
+    footer {
+      padding: 15px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+<header>🎮 Game Hub</header>
+
+<div class="games">
+  <a href="https://slopeunblocked.games" target="_blank">Slope</a>
+  <a href="https://run3.io" target="_blank">Run 3</a>
+  <a href="https://paper.io" target="_blank">Paper.io</a>
+  <a href="https://krunker.io" target="_blank">Krunker</a>
+  <a href="https://coolmathgames.com" target="_blank">Cool Math Games</a>
+  <a href="https://mathplayground.com" target="_blank">Math Playground</a>
+</div>
+
+<footer>
+  Educational Game Hub • Free Browser Games
+</footer>
+
+</body>
+</html>
